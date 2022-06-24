@@ -1,0 +1,97 @@
+body {
+    background-color: #212529;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logoaa {
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+li.nav-item {
+    padding: 0px 30px 0px 30px;
+}
+
+#linkmenu {
+    align-items: center;
+}
+
+#mainheader {
+    background-image: url(/assets/img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+#quote1 {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#aforisma {
+    position: relative;
+    padding: 25px;
+}
+
+#text-aforisma {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#descrizione {
+    line-height: 35px;
+}
+
+#aboutme {
+    padding: 25px;
+}
+
+
+.serviceitem {
+    background-color: #55585c;
+    border: 2px solid white;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#service>h2 {
+    padding: 25px;
+}
+
+.icon-service {
+    margin-top: 30px;
+    margin: 20px;
+}
+
+#service ul {
+    padding: 0;
+}
+
+#service li {
+    list-style: none;
+    text-align: center;
+}
+
+#portfolio {
+    margin-top: 30px;
+}
+
+#portfolio>button {
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (min-width: 700px) {
+    #quote1 {
+        max-width: 70%;
+    }
+}
